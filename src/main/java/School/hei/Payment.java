@@ -3,6 +3,10 @@ package School.hei;
 import lombok.Getter;
 
 import java.time.Instant;
+import java.util.Locale;
+import java.util.Optional;
+
+import static java.util.Arrays.stream;
 
 @Getter
 public class Payment {
@@ -15,4 +19,7 @@ public class Payment {
         this.dateEtHeure = dateEtHeure;
         this.montant = montant;
     }
+
+
+
 }
